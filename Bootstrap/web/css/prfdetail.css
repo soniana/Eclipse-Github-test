@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+#body,.tc_footer,.tc_gnb,.tc_header{color:#5a5a5a;font-size:13px;font-family:"Malgun Gothic",Dotum,'돋움',Tahoma,sans-serif;letter-spacing:-1px}
+#body .cont_in,.tc_footer .cont_in,.tc_gnb .cont_in,.tc_header .cont_in{width:980px;margin:0 auto}
+#body .hidden_txt,.tc_footer .hidden_txt,.tc_gnb .hidden_txt,.tc_header .hidden_txt{visibility:hidden;height:0;width:0;overflow:hidden;text-indent:100%;font-size:0;line-height:0}
+#body input[type=text]::-ms-clear,.tc_footer input[type=text]::-ms-clear,.tc_gnb input[type=text]::-ms-clear,.tc_header input[type=text]::-ms-clear{display:none}
+#body button,.tc_footer button,.tc_gnb button,.tc_header button{cursor:pointer;margin:0 -3px;padding:0;display:inline-block;*margin:0;border:0;vertical-align:top;*vertical-align:-1px}
+#body button *,.tc_footer button *,.tc_gnb button *,.tc_header button *{position:relative}
+#body input,#body select,#body textarea,.tc_footer input,.tc_footer select,.tc_footer textarea,.tc_gnb input,.tc_gnb select,.tc_gnb textarea,.tc_header input,.tc_header select,.tc_header textarea{font-family:"Malgun Gothic",Dotum,'돋움',Tahoma,sans-serif;font-size:13px}
+#body{padding-bottom:50px;min-width:980px}
+.spr_bg{background-image:url(//pics.auction.co.kr/vertical/ticket/spr_bg.png);background-repeat:no-repeat}
+.spr_btn{display:inline-block;overflow:hidden;background-image:url(//pics.auction.co.kr/vertical/ticket/spr_ticket_btn.png);font-size:0;line-height:0;white-space:nowrap;text-indent:110%;vertical-align:top;*text-indent:0;cursor:pointer}
+.spr_txt{display:inline-block;overflow:hidden;background-image:url(//pics.auction.co.kr/vertical/ticket/spr_ticket_txt.png);font-size:0;line-height:0;white-space:nowrap;text-indent:110%;vertical-align:top;*text-indent:0}
+.spr_ico{display:inline-block;overflow:hidden;background-image:url(//pics.auction.co.kr/vertical/ticket/spr_ticket_ico.png);font-size:0;line-height:0;white-space:nowrap;text-indent:110%;vertical-align:top;*text-indent:0}
+.logo_ticket_header{width:130px;height:39px;background-repeat:no-repeat;background-position:0 -201px}
+.tit_gnb_sub_concert{width:77px;height:28px;background-repeat:no-repeat;background-position:-377px -250px;cursor:auto}
+.tit_gnb_sub_musical{width:76px;height:28px;background-repeat:no-repeat;background-position:-464px -250px;cursor:auto}
+.tit_gnb_sub_play{width:50px;height:28px;background-repeat:no-repeat;background-position:0 -321px;cursor:auto}
+.tit_gnb_sub_classic_dance{width:138px;height:28px;background-repeat:no-repeat;background-position:-282px -201px;cursor:auto}
+.tit_gnb_sub_child_family{width:112px;height:28px;background-repeat:no-repeat;background-position:-430px -201px;cursor:auto}
+.tit_gnb_sub_exhibit_occasion{width:112px;height:28px;background-repeat:no-repeat;background-position:-146px -250px;cursor:auto}
+.tit_gnb_sub_sport_leisure{width:136px;height:28px;background-repeat:no-repeat;background-position:0 -250px;cursor:auto}
+.tit_gnb_sub_redcarpet{width:99px;height:28px;background-repeat:no-repeat;background-position:-268px -250px;cursor:auto}
+.txt_mymenu_check_res{width:44px;height:12px;background-repeat:no-repeat;background-position:-408px -408px}
+.txt_mymenu_myticket{width:44px;height:12px;background-repeat:no-repeat;background-position:-354px -408px}
+.txt_mymenu_korea{width:33px;height:10px;background-repeat:no-repeat;background-position:-520px -359px}
+.txt_hdr_country_ticket{width:60px;height:13px;background-repeat:no-repeat;background-position:-210px -359px}
+.txt_hdr_ranking{width:24px;height:13px;background-repeat:no-repeat;background-position:-386px -477px}
+.txt_hdr_search_placeholder{width:192px;height:26px;background-repeat:no-repeat;background-position:0 -165px}
+.txt_ticket_open_red{width:49px;height:13px;background-repeat:no-repeat;background-position:-377px -384px;cursor:auto}
+.txt_gnb_sub0101{width:50px;height:13px;background-repeat:no-repeat;background-position:-198px -384px}
+.txt_gnb_sub0101:hover{width:50px;height:13px;background-repeat:no-repeat;background-position:-400px -359px}
+.txt_gnb_sub0102{width:50px;height:13px;background-repeat:no-repeat;background-position:-460px -359px}
+.txt_gnb_sub0102:hover{width:50px;height:13px;background-repeat:no-repeat;background-position:-258px -384px}
+.txt_gnb_sub0103{width:50px;height:13px;background-repeat:no-repeat;background-position:-280px -359px}
+.txt_gnb_sub0103:hover{width:50px;height:13px;background-repeat:no-repeat;background-position:-340px -359px}
+.txt_gnb_sub0104{width:63px;height:13px;background-repeat:no-repeat;background-position:-383px -321px}
+.txt_gnb_sub0104:hover{width:63px;height:13px;background-repeat:no-repeat;background-position:-456px -321px}
+.txt_gnb_sub0201{width:49px;height:13px;background-repeat:no-repeat;background-position:-436px -384px}
+.txt_gnb_sub0201:hover{width:49px;height:13px;background-repeat:no-repeat;background-position:-495px -384px}
+.txt_gnb_sub0202{width:49px;height:13px;background-repeat:no-repeat;background-position:-295px -408px}
+.txt_gnb_sub0202:hover{width:49px;height:13px;background-repeat:no-repeat;background-position:-59px -408px}
+.txt_gnb_sub0203{width:49px;height:13px;background-repeat:no-repeat;background-position:-118px -408px}
+.txt_gnb_sub0203:hover{width:49px;height:13px;background-repeat:no-repeat;background-position:-177px -408px}
+.txt_gnb_sub0301{width:24px;height:13px;background-repeat:no-repeat;background-position:-522px -477px}
+.txt_gnb_sub0301:hover{width:24px;height:13px;background-repeat:no-repeat;background-position:-68px -501px}
+.txt_gnb_sub0302{width:24px;height:13px;background-repeat:no-repeat;background-position:-488px -477px}
+.txt_gnb_sub0302:hover{width:24px;height:13px;background-repeat:no-repeat;background-position:-420px -477px}
+.txt_gnb_sub0303{width:25px;height:13px;background-repeat:no-repeat;background-position:-426px -454px}
+.txt_gnb_sub0303:hover{width:25px;height:13px;background-repeat:no-repeat;background-position:-461px -454px}
+.txt_gnb_sub0304{width:25px;height:13px;background-repeat:no-repeat;background-position:-212px -477px}
+.txt_gnb_sub0304:hover{width:25px;height:13px;background-repeat:no-repeat;background-position:-282px -477px}
+.txt_gnb_sub0401{width:37px;height:13px;background-repeat:no-repeat;background-position:-235px -454px}
+.txt_gnb_sub0401:hover{width:37px;height:13px;background-repeat:no-repeat;background-position:-141px -454px}
+.txt_gnb_sub0402{width:38px;height:13px;background-repeat:no-repeat;background-position:-392px -431px}
+.txt_gnb_sub0402:hover{width:38px;height:13px;background-repeat:no-repeat;background-position:-344px -431px}
+.txt_gnb_sub0403{width:25px;height:13px;background-repeat:no-repeat;background-position:-496px -454px}
+.txt_gnb_sub0403:hover{width:25px;height:13px;background-repeat:no-repeat;background-position:-72px -477px}
+.txt_gnb_sub0404{width:26px;height:14px;background-repeat:no-repeat;background-position:-36px -477px}
+.txt_gnb_sub0404:hover{width:26px;height:14px;background-repeat:no-repeat;background-position:0 -477px}
+.txt_gnb_sub0501{width:37px;height:13px;background-repeat:no-repeat;background-position:-47px -454px}
+.txt_gnb_sub0501:hover{width:37px;height:13px;background-repeat:no-repeat;background-position:-94px -454px}
+.txt_gnb_sub0502{width:25px;height:13px;background-repeat:no-repeat;background-position:-356px -454px}
+.txt_gnb_sub0502:hover{width:25px;height:13px;background-repeat:no-repeat;background-position:-391px -454px}
+.txt_gnb_sub0503{width:37px;height:13px;background-repeat:no-repeat;background-position:-440px -431px}
+.txt_gnb_sub0503:hover{width:37px;height:13px;background-repeat:no-repeat;background-position:-188px -454px}
+.txt_gnb_sub0504{width:24px;height:13px;background-repeat:no-repeat;background-position:-454px -477px}
+.txt_gnb_sub0504:hover{width:24px;height:13px;background-repeat:no-repeat;background-position:-34px -501px}
+.txt_gnb_sub0601{width:24px;height:13px;background-repeat:no-repeat;background-position:0 -501px}
+.txt_gnb_sub0601:hover{width:24px;height:13px;background-repeat:no-repeat;background-position:-352px -477px}
+.txt_gnb_sub0602{width:25px;height:13px;background-repeat:no-repeat;background-position:-247px -477px}
+.txt_gnb_sub0602:hover{width:25px;height:13px;background-repeat:no-repeat;background-position:-317px -477px}
+.txt_gnb_sub0701{width:38px;height:11px;background-repeat:no-repeat;background-position:-510px -408px}
+.txt_gnb_sub0701:hover{width:38px;height:11px;background-repeat:no-repeat;background-position:-462px -408px}
+.txt_gnb_sub0702{width:23px;height:13px;background-repeat:no-repeat;background-position:-531px -454px}
+.txt_gnb_sub0702:hover{width:23px;height:13px;background-repeat:no-repeat;background-position:-102px -501px}
+.txt_gnb_sub0801{width:38px;height:13px;background-repeat:no-repeat;background-position:-296px -431px}
+.txt_gnb_sub0801:hover{width:38px;height:13px;background-repeat:no-repeat;background-position:-248px -431px}
+.txt_gnb_sub0802{width:39px;height:13px;background-repeat:no-repeat;background-position:-199px -431px}
+.txt_gnb_sub0802:hover{width:39px;height:13px;background-repeat:no-repeat;background-position:-150px -431px}
+.txt_gnb_sub0803{width:25px;height:13px;background-repeat:no-repeat;background-position:-107px -477px}
+.txt_gnb_sub0803:hover{width:25px;height:13px;background-repeat:no-repeat;background-position:-142px -477px}
+.txt_gnb_sub0804{width:69px;height:14px;background-repeat:no-repeat;background-position:-412px -139px}
+.txt_gnb_sub0804:hover{width:69px;height:14px;background-repeat:no-repeat;background-position:-226px -321px}
+.txt_gnb_sub0805{width:56px;height:14px;background-repeat:no-repeat;background-position:-498px -165px}
+.txt_gnb_sub0805:hover{width:56px;height:14px;background-repeat:no-repeat;background-position:-66px -384px}
+.ico_kor_flag{width:20px;height:14px;background-repeat:no-repeat;background-position:-163px -105px}
+.ico_en_flag{width:20px;height:15px;background-repeat:no-repeat;background-position:-163px -80px}
+.ico_ch_flag{width:20px;height:15px;background-repeat:no-repeat;background-position:-163px -30px}
+.ico_jp_flag{width:20px;height:15px;background-repeat:no-repeat;background-position:-163px -55px}
+.ico_dotten_bar{width:1px;height:11px;background-repeat:no-repeat;background-position:-76px -23px}
+.ico_my_menu_arrow{width:13px;height:13px;background-repeat:no-repeat;background-position:-52px -137px}
+.on .ico_my_menu_arrow{width:13px;height:13px;background-repeat:no-repeat;background-position:-133px -103px}
+.btn_hdr_search{width:26px;height:26px;background-repeat:no-repeat;background-position:-610px -350px}
+.btn_full_gnb{width:70px;height:13px;background-repeat:no-repeat;background-position:-206px -524px}
+.on .btn_full_gnb{width:70px;height:13px;background-repeat:no-repeat;background-position:-370px -329px}
+.btn_poster_detail_view{width:90px;height:30px;background-repeat:no-repeat;background-position:-360px -454px}
+.btn_hdr_banner_toggle{width:44px;height:44px;background-repeat:no-repeat;background-position:-98px -524px}
+.btn_hdr_banner_toggle.on{width:44px;height:44px;background-repeat:no-repeat;background-position:-44px -524px}
+.tc_header{min-width:980px;position:relative;height:94px;zoom:1;z-index:60}
+.tc_header .cont_in{position:relative;*zoom:1}
+.tc_header .cont_in:after{content:"";display:block;clear:both}
+.tc_header_logo{padding-top:30px;float:left}
+.tc_hdr_search{position:relative;float:left;width:348px;height:40px;margin:26px 0 0 15px;border-bottom:4px solid #eb000a}
+.tc_hdr_search .btn_hdr_search{position:absolute;right:0;top:10px;border:0;margin:0;background-color:transparent}
+.tc_hdr_search .txt_hdr_search_placeholder{position:absolute;left:0;top:10px;cursor:text}
+.tc_hdr_search .input_txt{height:17px;*height:16px;width:310px;border:0;padding:12px 0 11px;margin:0;background:#fff;font-size:14px;line-height:17px;text-indent:10px;color:#555;font-weight:700;outline:0}
+.tc_hdr_search label{width:0;height:0;font-size:0}
+.tc_quick_menu{float:left;padding:47px 0 0;margin-left:20px}
+.tc_quick_menu .ico_dotten_bar{display:inline-block;margin:0 10px}
+.tc_head_util{position:absolute;right:0;top:48px}
+.tc_head_util li{position:relative;float:left;height:10px;line-height:10px;overflow:visible;margin-left:10px;padding-left:10px;border-left:1px solid #c9c9c9;cursor:pointer;z-index:11}
+.tc_head_util li:first-child{border-left:0}
+.tc_head_util .flag{margin-top:-2px;margin-right:7px}
+.tc_head_util .ico_my_menu_arrow{margin-left:5px}
+.tc_head_util .item_layer{position:absolute;left:-7px;top:-9px;padding-top:30px;display:none}
+.tc_head_util .item_layer ul{width:85px;padding:7px 10px;border:1px solid #ccc;background:#fff}
+.tc_head_util .item_layer ul li{float:none;height:auto;margin:0;padding:0;border:0;line-height:20px}
+.tc_head_util .item_layer ul li a{display:block;color:#999;font-size:12px;text-decoration:none}
+.tc_head_util .item_layer ul li a:hover{text-decoration:underline}
+.tc_head_util .item_layer ul li .flag{vertical-align:middle}
+.tc_head_util .item_layer .bg_arr{position:absolute;top:24px;left:48px;display:block;width:10px;height:7px;background-position:0 -114px}
+.tc_head_util li:focus .item_layer,.tc_head_util li:hover .item_layer{display:block}
+.tc_head_util li.lang_list{letter-spacing:normal}
+.tc_gnb{min-width:980px;position:relative;z-index:59;height:40px;border-bottom:2px solid #414042;border-top:3px solid #e6e7e8}
+.tc_gnb .cont_in{position:relative;z-index:5;height:40px}
+.btn_full_toggle{position:absolute;top:0;left:0;height:40px}
+.btn_full_toggle .btn_full_gnb{margin:15px 15px 0 0}
+.tc_gnb_menu{position:relative;margin-left:90px;height:40px}
+.tc_gnb_item{float:left;height:40px}
+.tc_gnb_item .tc_gnb_btn{display:inline-block;height:40px;padding:0 18px;vertical-align:top}
+.tc_gnb_item .tc_gnb_btn .spr_txt{margin-top:14px}
+.tc_gnb_item.concert .tc_gnb_btn{padding:0 18px 0 15px}
+.tc_gnb_item.concert .tc_gnb_btn .spr_txt{width:40px;height:13px;background-repeat:no-repeat;background-position:-100px -431px}
+.tc_gnb_item.concert.on .tc_gnb_btn .spr_txt,.tc_gnb_item.concert:hover .tc_gnb_btn .spr_txt{width:40px;height:13px;background-repeat:no-repeat;background-position:-50px -431px}
+.tc_gnb_item.musical .tc_gnb_btn .spr_txt{width:40px;height:13px;background-repeat:no-repeat;background-position:-511px -102px}
+.tc_gnb_item.musical.on .tc_gnb_btn .spr_txt,.tc_gnb_item.musical:hover .tc_gnb_btn .spr_txt{width:40px;height:13px;background-repeat:no-repeat;background-position:0 -431px}
+.tc_gnb_item.play .tc_gnb_btn .spr_txt{width:27px;height:13px;background-repeat:no-repeat;background-position:-319px -454px}
+.tc_gnb_item.play.on .tc_gnb_btn .spr_txt,.tc_gnb_item.play:hover .tc_gnb_btn .spr_txt{width:27px;height:13px;background-repeat:no-repeat;background-position:-282px -454px}
+.tc_gnb_item.classic_dance .tc_gnb_btn .spr_txt{width:73px;height:15px;background-repeat:no-repeat;background-position:-405px -288px}
+.tc_gnb_item.classic_dance.on .tc_gnb_btn .spr_txt,.tc_gnb_item.classic_dance:hover .tc_gnb_btn .spr_txt{width:73px;height:15px;background-repeat:no-repeat;background-position:-60px -321px}
+.tc_gnb_item.child_family .tc_gnb_btn .spr_txt{width:60px;height:15px;background-repeat:no-repeat;background-position:0 -359px}
+.tc_gnb_item.child_family.on .tc_gnb_btn .spr_txt,.tc_gnb_item.child_family:hover .tc_gnb_btn .spr_txt{width:60px;height:15px;background-repeat:no-repeat;background-position:-70px -359px}
+.tc_gnb_item.exhibit_occasion .tc_gnb_btn .spr_txt{width:60px;height:15px;background-repeat:no-repeat;background-position:-140px -359px}
+.tc_gnb_item.exhibit_occasion.on .tc_gnb_btn .spr_txt,.tc_gnb_item.exhibit_occasion:hover .tc_gnb_btn .spr_txt{width:60px;height:15px;background-repeat:no-repeat;background-position:-488px -288px}
+.tc_gnb_item.sport_leisure .tc_gnb_btn .spr_txt{width:73px;height:15px;background-repeat:no-repeat;background-position:-322px -288px}
+.tc_gnb_item.sport_leisure.on .tc_gnb_btn .spr_txt,.tc_gnb_item.sport_leisure:hover .tc_gnb_btn .spr_txt{width:73px;height:15px;background-repeat:no-repeat;background-position:-143px -321px}
+.tc_gnb_item.redcarpet .tc_gnb_btn{position:relative}
+.tc_gnb_item.redcarpet .tc_gnb_btn .spr_txt{width:63px;height:23px;background-repeat:no-repeat;background-position:-485px -44px;margin-top:9px}
+.tc_gnb_item.redcarpet .tc_gnb_btn .ico{position:absolute;right:-5px;top:-7px}
+.tc_gnb_item.redcarpet .txt_ticket_open_red{width:100%;color:#eb000a;font-weight:700;line-height:14px}
+.tc_gnb_item.redcarpet.on .tc_gnb_btn .spr_txt,.tc_gnb_item.redcarpet:hover .tc_gnb_btn .spr_txt{width:63px;height:23px;background-repeat:no-repeat;background-position:0 -288px}
+.txt_fullmenu_concert{width:37px;height:13px;background-repeat:no-repeat;background-position:0 -454px}
+.txt_fullmenu_musical{width:37px;height:13px;background-repeat:no-repeat;background-position:-487px -431px}
+.txt_fullmenu_play{width:25px;height:13px;background-repeat:no-repeat;background-position:-177px -477px}
+.txt_fullmenu_classic_dance{width:69px;height:14px;background-repeat:no-repeat;background-position:-333px -139px}
+.txt_fullmenu_child_family{width:56px;height:14px;background-repeat:no-repeat;background-position:-132px -384px}
+.txt_fullmenu_exhibit_occasion{width:56px;height:14px;background-repeat:no-repeat;background-position:0 -384px}
+.txt_fullmenu_sport_leisure{width:68px;height:14px;background-repeat:no-repeat;background-position:-305px -321px}
+.txt_fullmenu_redcarpet{width:49px;height:13px;background-repeat:no-repeat;background-position:-236px -408px;cursor:default}
+.txt_fullmenu_condi_res{width:62px;height:14px;background-repeat:no-repeat;background-position:-491px -139px;cursor:default}
+.txt_fullmenu_event{width:80px;height:14px;background-repeat:no-repeat;background-position:-154px -139px;cursor:default}
+.txt_fullmenu_resranking{width:49px;height:13px;background-repeat:no-repeat;background-position:-318px -384px;cursor:default}
+.txt_fullmenu_customer{width:49px;height:13px;background-repeat:no-repeat;background-position:0 -408px;cursor:default}
+.txt_fullmenu_credit_bene{width:79px;height:14px;background-repeat:no-repeat;background-position:-244px -139px;cursor:default}
+.tc_gnb_sub{position:absolute;left:5px;top:40px;display:none;width:638px;height:290px;padding:30px;background:#fff;border:1px solid #000;border-top:2px solid #414042}
+.on .tc_gnb_sub,.tc_gnb_item:hover .tc_gnb_sub{display:block}
+.tc_gnb_sub:after{content:"";display:block;height:0;visibility:hidden}
+.tc_gnb_sub .list{width:216px;margin-top:19px}
+.tc_gnb_sub .list .item{margin-bottom:10px}
+.tc_gnb_ticket_info{position:absolute;right:30px;top:30px;width:169px;height:290px;padding-left:255px;border-left:1px solid #757575;font-size:13px;color:#333}
+.tc_gnb_ticket_info .poster{position:absolute;left:30px;top:0}
+.tc_gnb_ticket_info .title{display:block;margin-top:-3px;font-size:20px;line-height:23px;color:#eb000a;font-weight:500}
+.tc_gnb_ticket_info .note{padding-top:15px;line-height:20px}
+.tc_gnb_ticket_info .red{color:#eb000a}
+.tc_gnb_ticket_info .btn_poster_detail_view{position:absolute;left:255px;bottom:0}
+.tc_gnb_ticket_open{position:absolute;left:30px;bottom:30px;width:216px;font-size:13px}
+.tc_gnb_ticket_open .txt_ticket_open_red{display:block;margin-bottom:7px}
+.tc_gnb_ticket_open .date{display:block;line-height:15px;color:#656565}
+.tc_gnb_ticket_open p{margin-top:5px;padding-right:10px;line-height:15px;color:#656565}
+.tc_hdr_event{position:absolute;z-index:10;right:0;bottom:0;display:block}
+.tc_hdr_event img{width:103px;height:55px}
+.tc_hdr_event .btn_hdr_banner_toggle{position:absolute;right:0;top:33px}
+.tc_hdr_event_banner{position:absolute;left:0;top:40px;display:none;min-width:980px;z-index:3;width:100%;height:540px;border-bottom:1px solid #333}
+.tc_hdr_event_banner .hdr_event_banner_cont{position:relative;width:100%;height:100%;overflow:hidden}
+.tc_hdr_event_banner .hdr_event_banner_cont img{display:block;margin:0 auto}
+.tc_gnb_full_menu{position:absolute;z-index:5;left:0;top:42px;display:none;width:978px;border:1px solid #000;font-size:0;border-top:0;background:url(//pics.auction.co.kr/vertical/ticket/bg_gnb_full_menu.gif) repeat-y #fff}
+.tc_gnb_full_menu .bg_box{overflow:hidden;background:url(//pics.auction.co.kr/vertical/ticket/bg_gnb_full_menu_box.gif) repeat-y}
+.tc_gnb_full_menu .line{margin:0 -1px;border:0}
+.tc_gnb_full_menu .line.first{min-height:150px}
+.tc_gnb_full_menu .line.second{min-height:210px}
+.tc_full_menu_list{display:inline-block;width:119px;margin:0 11px 0 10px;padding-bottom:10px;vertical-align:top;font-size:13px;line-height:normal;*display:inline;*zoom:1}
+.tc_full_menu_list.first_line{height:148px}
+.tc_full_menu_list .title{margin:12px 0 10px}
+.tc_full_menu_list .list{padding-top:6px;border-top:2px solid #000}
+.tc_full_menu_list .list .item{height:22px;line-height:22px}
+.tc_full_menu_list .list a{text-decoration:none;color:#676767}
+.btn_full_gnb_close{position:absolute;right:8px;bottom:7px;width:35px;height:35px;background-repeat:no-repeat;background-position:0 -578px}
+.auto_srch_layer{position:absolute;top:45px;left:0;width:489px;min-height:265px;padding:20px 20px 20px 0;border:1px solid #000;background:#fff;display:none}
+.auto_kwd_list{position:relative;margin-top:-6px}
+.auto_kwd_list li.on a{background:#efefef}
+.auto_kwd_list .kwd_item{display:block;width:269px;padding:0 20px;color:#5a5a5a;line-height:28px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.auto_kwd_list .kwd_item .matching{color:#eb0009;text-decoration:none}
+.auto_kwd_list .kwd_item:hover{background:#efefef;text-decoration:none}
+.auto_kwd_list .prd_box{position:absolute;top:6px;right:0;width:168px;height:254px;padding:11px 5px;background:#ededed}
+.auto_kwd_list .prd_box .prd_info .info_name{height:20px;margin-top:5px;color:#5a5a5a;font-size:13px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.auto_kwd_list .prd_box .prd_info .info_place{margin-top:0;color:#5a5a5a}
+.auto_kwd_list .prd_box .prd_info .info_date{color:#5a5a5a}
+.auto_kwd_list .prd_img{margin:0 20px}
+.auto_kwd_list .prd_img img{width:126px;height:182px}
+#wrap #container{margin-top:25px}
+#wrap #container .sec_section{margin-top:0}
